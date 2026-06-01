@@ -54,7 +54,3 @@ heapify:     every node might be out of place → fix ALL of them
 remove_max:  only the ROOT is out of place → fix just that one
              bubble_down(... index 0)  ← always the root
 """
-
-
-if __name__ == "__main__":
-    main()
