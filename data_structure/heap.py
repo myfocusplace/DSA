@@ -14,6 +14,7 @@ def bubble_down(heap, heap_length, index):
         left_index = left_child_index(index)
         right_index = right_child_index(index)
 
+        #There is no more children to compare with
         if left_index >= heap_length:
             break
 

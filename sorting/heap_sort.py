@@ -7,7 +7,7 @@ element and put it at the end of the array
 
 Inside remove_max it automatically bubble_down for you already
 '''
-def heapsort(the_list):
+def heap_sort(the_list):
     heapify(the_list)
     heap_size = len(the_list)
     while heap_size > 0:
